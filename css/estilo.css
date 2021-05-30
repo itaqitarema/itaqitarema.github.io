@@ -1,0 +1,117 @@
+@font-face {
+  font-family: "BwM-regular";
+  src: url(../fonts/BwMitga-Regular.otf);
+}
+
+body,
+html {
+  font-family: Arial, BwM-regular;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+}
+
+#header {
+  width: 100%;
+  background-color: #1f456e;
+  position: fixed;
+  transition: 0.5s ease-in;
+}
+
+#header.active {
+  z-index: 9999;
+  position: fixed;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+#header .navbar-collapse {
+  width: auto;
+}
+
+#header .navbar-toggler-icon {
+  color: white;
+}
+
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: solid 4px transparent;
+  color: white;
+}
+
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--secondary);
+  color: var(--secondary);
+}
+
+#slider {
+  background: url(../asserts/nome_banner.png) no-repeat center bottom;
+  background-size: contain;
+}
+
+#slider a:active {
+  background-color: var(--primary);
+  box-shadow: #1f456e;
+}
+
+#slider h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+#slider h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#slider h1,
+h4,
+img,
+a {
+  opacity: 5;
+}
+
+#video {
+  max-width: 100%;
+}
+
+#parceiros .column {
+  margin: 2px;
+}
+
+#parceiros img {
+  width: 70px;
+  height: 70px;
+  border-radius: 5px;
+}
+
+#contato .rede-social {
+  border-radius: 5px;
+  background-color: var(--secondary);
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 30px;
+}
+#footer {
+  background-color: var(--primary);
+  margin-top: 90px;
+}
+
+#footer p {
+  margin: 0;
+}

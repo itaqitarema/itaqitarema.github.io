@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h5 {
+  font-weight: 600;
+  margin: 0;
+}
+
+.title {
+  text-transform: uppercase;
+}
+
+.subtitle {
+  color: darkgrey;
+  font-weight: 400;
+}
+
+.block {
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.button {
+  text-transform: lowercase;
+  font-weight: 500;
+  padding-left: 1.4rem;
+  padding-right: 1.4rem;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.button-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary);
+}
+
+.button-insta {
+  background-color: #fff;
+  border-color: #fff;
+  color: #000;
+  padding-right: 25px;
+}
+
+.button-insta:hover {
+  background-color: var(--primary);
+}
+
+.button-outline-primary {
+  border-color: var(--primary);
+  color: var(--primary);
+}
+
+.button-outline-primary:hover {
+  background-color: var(--primary-dark);
+  border-color: var(--primary-dark);
+}
